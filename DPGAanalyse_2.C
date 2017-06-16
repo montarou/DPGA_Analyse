@@ -92,6 +92,7 @@ double (*array)[999] = (double (*)[999]) test;
 if(*Evt == 0) {
 for(int i=0; i<999; i++) {
 g->SetPoint(i,SampleTimes[i], Pulse[0][i]);
+cout << "test" << endl;
 }
 
 TCanvas* c = new TCanvas();
